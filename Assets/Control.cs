@@ -6,6 +6,7 @@ public class Control : MonoBehaviour
 {
     public bool debugs = true;
     float speed = 10;
+    float jumpForce = 5f;
     Rigidbody myRB;
 
     public enum playerMode
@@ -30,7 +31,11 @@ public class Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetButtonDown("Jump"))
+        {
+            myRB.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            //transform.Translate(0, jumpHeight *Time.deltaTime, 0);
+        }
     }
 
     void FixedUpdate()
