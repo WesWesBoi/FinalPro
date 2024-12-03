@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ColorBlue.unity
     guid: d8c8152c67ad8044da27b2204fd7b6b3
+  - enabled: 1
+    path: Assets/Scenes/LobbyAfterBlue.unity
+    guid: 4b9ceb7735b31a84789013c128ee0842
   m_configObjects: {}
