@@ -15,7 +15,8 @@ public class Control : MonoBehaviour
         ONPLATFORM,
         AIRBORNE,
         GROUNDED,
-        ONKill
+        ONKill,
+        GrenFn
     }
 
     public playerMode myMode;
@@ -70,7 +71,15 @@ public class Control : MonoBehaviour
 
         }
 
-        if(Direction(false) == Vector3.zero) { myRB.velocity = Vector3.zero; }
+        switch (myMode)
+        {
+            case playerMode.GrenFn:
+                debugMachine.myMode = SimpleStateMachine.stateMode.GREEN;
+                break;
+
+        }
+
+        if (Direction(false) == Vector3.zero) { myRB.velocity = Vector3.zero; }
     }
 
     Vector3 Direction(bool debugs)

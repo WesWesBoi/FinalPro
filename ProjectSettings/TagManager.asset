@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - OnKill
   - Grounded
+  - GrenFn
   layers:
   - Default
   - TransparentFX
