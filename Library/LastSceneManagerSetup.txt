@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/ColorGreen.unity
+- path: Assets/Scenes/ColorBlue.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

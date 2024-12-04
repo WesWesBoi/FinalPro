@@ -2510,16 +2510,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380135915}
-  m_LocalRotation: {x: 0.5181252, y: 0.48780143, z: -0.5176274, w: 0.47503474}
-  m_LocalPosition: {x: 0, y: 0, z: 4.38}
+  m_LocalRotation: {x: -0.47014853, y: -0.50895023, z: 0.50669116, w: -0.5130245}
+  m_LocalPosition: {x: 0, y: 0, z: -2.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1877107107}
-  m_LocalEulerAnglesHint: {x: 85.753, y: -99.958, z: -190.662}
+  m_LocalEulerAnglesHint: {x: 86.52, y: 48.947, z: -402.915}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -616.55774, y: -176.28342}
+  m_AnchoredPosition: {x: -327.5, y: -219.8}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1380135917
@@ -2574,7 +2574,8 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380135915}
-  m_Text: "Get pass \nthis coruse to\n get a new color"
+  m_Text: "Get pass \nthis coruse to\n get a new color\nS = right\nD= forward\nw=
+    left\na= back"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 4

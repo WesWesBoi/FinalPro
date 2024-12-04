@@ -79,7 +79,7 @@ public class Control : MonoBehaviour
 
         }
 
-        if (Direction(false) == Vector3.zero) { myRB.velocity = Vector3.zero; }
+        if (Direction(false) == Vector3.zero) { myRB.velocity = new Vector3(0f,myRB.velocity.y,0f); }
     }
 
     Vector3 Direction(bool debugs)
