@@ -9,6 +9,8 @@ public class CameraController : MonoBehaviour
     public GameObject Camera2;
     public GameObject Camera3;
 
+    public Control myPlayer;
+
     
     void Update()
     {
@@ -33,6 +35,7 @@ public class CameraController : MonoBehaviour
         Camera1.SetActive(true);
         Camera2.SetActive(false);
         Camera3.SetActive(false);
+      
     }
 
     void CameraTwo()
@@ -48,4 +51,6 @@ public class CameraController : MonoBehaviour
         Camera2.SetActive(false);
         Camera1.SetActive(false);
     }
+
+    
 }

@@ -10,6 +10,8 @@ public class Control : MonoBehaviour
     float jumpForce = 5f;
     Rigidbody myRB;
 
+    
+
     public enum playerMode
     {
         ONPLATFORM,
@@ -87,7 +89,7 @@ public class Control : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         Vector3 dir = new Vector3(h, 0, v);
-
+       
         if (debugs)
         {
             Debug.DrawRay(transform.position, myRB.velocity, Color.yellow);
@@ -96,6 +98,7 @@ public class Control : MonoBehaviour
             Debug.DrawRay(transform.position + Vector3.up, transform.forward, Color.green);
             Debug.DrawRay(transform.position + Vector3.up, transform.right, Color.green);
         }
+
         return dir;
     }
 

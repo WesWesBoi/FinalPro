@@ -1218,7 +1218,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: 1.7599999, z: -10}
+  m_LocalPosition: {x: 5.1, y: -36.89, z: -46.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1276,7 +1276,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -2.741, y: -362.577, z: -360.765}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -323.17816, y: -295.4394}
+  m_AnchoredPosition: {x: -346, y: -295.4394}
   m_SizeDelta: {x: -10.278, y: 4.3806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!102 &980180116
@@ -1289,7 +1289,7 @@ TextMesh:
   m_GameObject: {fileID: 980180114}
   m_Text: 'Nice Red Color gained
 
-'
+    Lets go for blue'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2004,6 +2004,7 @@ MonoBehaviour:
   Camera1: {fileID: 1997225519}
   Camera2: {fileID: 1997225519}
   Camera3: {fileID: 1997225519}
+  myPlayer: {fileID: 0}
 --- !u!4 &1471078783
 Transform:
   m_ObjectHideFlags: 0
