@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LobbyAfterGreen.unity
     guid: 9e59cd0180195814f9fc8bbfcdcf0a27
   - enabled: 1
-    path: Assets/Scenes/LoseColor.unity
+    path: Assets/Scenes/LastColor.unity
     guid: a2eca14c7c24d5a429e1b68213056ee6
   m_configObjects: {}
