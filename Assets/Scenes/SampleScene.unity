@@ -747,7 +747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1293544988540116269, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1639
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1293544988540116269, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -785,16 +785,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5962378779792560682, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7716308846813832098, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1293544988540116269, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1552896076}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
 --- !u!1 &462276001
@@ -2158,11 +2159,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1066840421}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1149709981 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1293544988540116269, guid: 5193e39e8b4f0fb4b8b96749042851f4, type: 3}
-  m_PrefabInstance: {fileID: 417149588}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1160565235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,12 +3413,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552896075}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: -2.36, y: 0, z: -0.919}
-  m_LocalScale: {x: 3.9386384, y: 1, z: 1}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: -3.62, y: -0.3, z: 1.581255}
+  m_LocalScale: {x: 1.4599745, y: 1, z: -1.4170978}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1149709981}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!64 &1552896077
 MeshCollider:
@@ -4372,7 +4368,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959989689}
   m_LocalRotation: {x: -0.023760557, y: -0.022636566, z: -0.0072133974, w: 0.99943537}
-  m_LocalPosition: {x: 0, y: 0, z: 10.7}
+  m_LocalPosition: {x: 0, y: 0, z: 14.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4380,7 +4376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -2.741, y: -362.577, z: -360.765}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.8, y: 12.17569}
+  m_AnchoredPosition: {x: -8.8, y: 14.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!102 &1959989691
@@ -4391,23 +4387,16 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959989689}
-  m_Text: 'For cams
-
-    1= cam 1 ( for below plat cam)
-
-    2= cam 2 ( for what
-    lays behind that white door)
-
-    3= cam 3( for this cam)
-
-'
+  m_Text: "HEYYY Me here :\nSorry to drop you in this world\nWelcome to Co*##_Dark#$*_3\n
+    goal:  pass through door (Simple)\n\n(For cams\n1= cam 1 ( for below plat cam)\n2=
+    cam 2 ( for what lays behind that white door)\n3= cam 3( for this cam))\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 12
+  m_FontSize: 14
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 0}
@@ -5226,6 +5215,7 @@ SceneRoots:
   - {fileID: 1450540278}
   - {fileID: 2780644240064974859}
   - {fileID: 67233845}
+  - {fileID: 1552896076}
   - {fileID: 417149588}
   - {fileID: 1943794446}
   - {fileID: 1847465933}
